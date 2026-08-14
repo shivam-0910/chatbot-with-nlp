@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Testing / caching
+.pytest_cache/
+.cache/
+*.egg-info/
+
+# NLTK downloaded data (re-downloadable, should not be committed)
+nltk_data/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Jupyter checkpoints (if notebooks are used for experimentation)
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.bak
