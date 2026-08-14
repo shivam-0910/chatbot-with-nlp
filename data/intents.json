@@ -1,0 +1,302 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Hey, can you help me?",
+        "Hi bot",
+        "Hello, I have a question",
+        "Yo"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What would you like to know?",
+        "Hey! Feel free to ask me anything about the college."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I have to go now",
+        "Talk to you later",
+        "Exit",
+        "Quit",
+        "That's all, thanks",
+        "I'm done, bye",
+        "Close chat"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later! Feel free to come back if you have more questions.",
+        "Take care! Bye for now."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful, thanks",
+        "Thanks a lot",
+        "Appreciate it",
+        "Thanks for the info",
+        "Great, thank you",
+        "Awesome, thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime! Let me know if you need anything else."
+      ]
+    },
+    {
+      "tag": "college_info",
+      "patterns": [
+        "Tell me about the college",
+        "What is this college known for?",
+        "Can you give me some information about the college?",
+        "What kind of institution is this?",
+        "Give me an overview of the college",
+        "What does the college offer?",
+        "Is this a private or government college?",
+        "Tell me more about your institution",
+        "What makes this college different?"
+      ],
+      "responses": [
+        "This college offers a range of undergraduate and postgraduate programs with a focus on quality education.",
+        "We are an educational institution offering various academic programs and student facilities.",
+        "The college focuses on academics, extracurricular activities, and overall student development."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "What programs are available?",
+        "Tell me about the courses",
+        "What can I study here?",
+        "Do you have engineering courses?",
+        "What departments are available?",
+        "What undergraduate programs do you have?",
+        "What postgraduate courses are offered?",
+        "List the available courses",
+        "What subjects can I major in?"
+      ],
+      "responses": [
+        "We offer a variety of undergraduate and postgraduate programs across multiple departments.",
+        "Our college offers programs in areas such as engineering, science, arts, and commerce.",
+        "You can choose from several academic programs depending on your interest and eligibility."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "How can I get admitted?",
+        "What are the admission requirements?",
+        "When does the admission process start?",
+        "Is there an entrance exam for admission?",
+        "What documents are needed for admission?",
+        "Can I apply for admission online?",
+        "What is the eligibility criteria for admission?",
+        "How do I submit my application?"
+      ],
+      "responses": [
+        "Admissions are typically based on eligibility criteria and, in some cases, an entrance exam. Please check the official admission notice for details.",
+        "You can apply for admission by submitting the required documents through the admission portal.",
+        "The admission process usually includes an application form, eligibility verification, and document submission."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": [
+        "What is the fee structure?",
+        "How much are the tuition fees?",
+        "Tell me about the course fees",
+        "What is the total fee for the program?",
+        "Are there any additional charges?",
+        "Is there a fee installment option?",
+        "How do I pay my fees?",
+        "What is the fee payment deadline?",
+        "Do you offer scholarships?",
+        "Is there a fee waiver for merit students?"
+      ],
+      "responses": [
+        "The fee structure varies by program. Please refer to the official fee details for accurate figures.",
+        "Fees can usually be paid online or at the accounts office, and installment options may be available.",
+        "Scholarships and fee waivers may be available for eligible students based on merit or need."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "What is the minimum attendance requirement?",
+        "How is attendance calculated?",
+        "What happens if my attendance is low?",
+        "Can I check my attendance online?",
+        "Is attendance mandatory for exams?",
+        "What is the attendance policy?",
+        "How many classes can I miss?",
+        "Do I need a medical certificate for absence?"
+      ],
+      "responses": [
+        "Students are generally required to maintain a minimum attendance percentage to be eligible for exams.",
+        "Attendance is usually tracked per subject and can be checked through the student portal.",
+        "Low attendance may affect exam eligibility, so it's best to stay updated with your attendance record."
+      ]
+    },
+    {
+      "tag": "examinations",
+      "patterns": [
+        "When are the exams scheduled?",
+        "How do I check my exam results?",
+        "What is the exam pattern?",
+        "Is there a re-exam option?",
+        "How can I apply for revaluation?",
+        "What happens if I fail an exam?",
+        "Are exams online or offline?",
+        "When will the exam timetable be released?",
+        "What is the passing criteria for exams?"
+      ],
+      "responses": [
+        "Exam schedules are usually announced in advance and posted on the notice board or student portal.",
+        "Results are typically published on the official student portal after evaluation.",
+        "Students who do not pass may have the option to appear for supplementary or re-examinations."
+      ]
+    },
+    {
+      "tag": "timetable",
+      "patterns": [
+        "What is today's class schedule?",
+        "Can you show me the timetable?",
+        "When does my class start?",
+        "What time does college start?",
+        "What is the weekly schedule?",
+        "How can I get my class timetable?",
+        "Are classes held on weekends?",
+        "What are the college timings?"
+      ],
+      "responses": [
+        "Class timetables are usually available on the student portal or notice board.",
+        "College hours generally run on weekdays; please check your department schedule for exact timings.",
+        "You can find your personalized timetable by logging into the student portal."
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "What are the library timings?",
+        "How many books can I borrow?",
+        "Is there an online library?",
+        "How do I get a library card?",
+        "Can I access e-books through the library?",
+        "What is the library late fee policy?",
+        "Where is the library located?",
+        "Do you have a digital library system?"
+      ],
+      "responses": [
+        "The library is generally open during college hours and offers both physical and digital resources.",
+        "Students can borrow books using their library card, subject to borrowing limits.",
+        "An online library or digital catalog may be available for accessing e-books and journals."
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the college?",
+        "What is the college phone number?",
+        "Can I get the email address of the admissions office?",
+        "Where is the college located?",
+        "What is the college address?",
+        "How do I reach the administration office?",
+        "Is there a helpline number?",
+        "Who do I contact for more information?"
+      ],
+      "responses": [
+        "You can contact the college through the official phone number or email listed on the website.",
+        "For specific queries, it's best to reach out to the respective department or admissions office.",
+        "Contact details are usually available on the official college website or notice board."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are the college working hours?",
+        "When does the college open?",
+        "What time does the college close?",
+        "Is the college open on weekends?",
+        "What are the office hours?",
+        "Is the college open on public holidays?",
+        "What time does the administration office open?"
+      ],
+      "responses": [
+        "The college is generally open on weekdays during standard working hours.",
+        "Office hours typically run Monday through Friday, excluding public holidays.",
+        "Weekend and holiday hours may vary, so it's best to check with the administration office."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does the college offer?",
+        "Is there a hostel facility?",
+        "Do you have a sports ground?",
+        "Is there a canteen on campus?",
+        "Does the college have a gym?",
+        "Is Wi-Fi available on campus?",
+        "Do you have transportation facilities?",
+        "Is there a medical facility on campus?"
+      ],
+      "responses": [
+        "The college offers various facilities including hostel, canteen, sports grounds, and more.",
+        "Campus facilities typically include Wi-Fi, transportation, and recreational areas for students.",
+        "Yes, most colleges provide amenities like a canteen, library, sports facilities, and medical support."
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events are happening this month?",
+        "Is there a college fest?",
+        "When is the next cultural event?",
+        "Are there any upcoming workshops?",
+        "Does the college organize seminars?",
+        "What extracurricular activities are available?",
+        "Is there a sports day event?",
+        "How can I participate in college events?"
+      ],
+      "responses": [
+        "The college regularly organizes cultural fests, seminars, and workshops throughout the year.",
+        "Information about upcoming events is usually shared through the notice board or student portal.",
+        "Students can participate in various extracurricular activities and events organized by the college."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I don't understand",
+        "What do you mean?",
+        "Can you repeat that?",
+        "That doesn't make sense",
+        "I'm confused",
+        "Can you explain differently?",
+        "Not what I asked"
+      ],
+      "responses": [
+        "I'm sorry, I didn't quite understand that. Could you rephrase your question?",
+        "I'm not sure I follow. Can you ask that in a different way?",
+        "Sorry, I couldn't understand your question. Could you provide more details?"
+      ]
+    }
+  ]
+}
